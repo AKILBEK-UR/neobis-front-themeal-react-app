@@ -42,10 +42,9 @@ export default function MainPage(){
       <div className="mainpage" >
         <>
           <section className="mainpart">
+          <Link to={`/meal/${meal.idMeal}`} key={meal.idMeal} className="mainpart">
             <div className="mainpart__title">
-              <Link to={`/meal/${meal.idMeal}`} key={meal.idMeal}>
                 <h1>{meal.strMeal}</h1>
-              </Link>
               <div className="">
                 {meal.strCategory} | {meal.strArea}
               </div>
@@ -55,6 +54,7 @@ export default function MainPage(){
               src={meal.strMealThumb}
               alt={meal.strMeal}
             />
+          </Link>
           </section>
           <form className="search" onSubmit={handleSearch}>
             <h2>Find your Meal</h2>
@@ -74,18 +74,18 @@ export default function MainPage(){
         </>
         {searchResult.map((item) => (
         <section className="mainpart" key={item.idMeal}>
+        <Link to={`/meal/${item.idMeal}`} key={item.idMeal} className="mainpart">
           <img
             src={item.strMealThumb}
             alt={item.strMeal}
           />
           <div className="mainpart__title">
-            <Link to={`/meal/${item.idMeal}`} key={item.idMeal}>
               <h2 className="">{item.strMeal}</h2>
-            </Link>
             <div className="">
               {item.strCategory} | {item.strArea}
             </div>
           </div>
+        </Link>
         </section>
       ))}
       </div>
