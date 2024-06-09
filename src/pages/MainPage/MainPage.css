@@ -74,6 +74,10 @@ a{
 
 /* Responsive styles */
 @media (max-width: 768px) {
+  html {
+    font-size: 10px;
+    margin: 2rem;
+  }
     .mainpage {
         padding: 2rem;
     }
@@ -124,6 +128,10 @@ a{
 }
 
 @media (max-width: 480px) {
+  html {
+    font-size: 10px;
+    margin: 2rem;
+  }
     .mainpage {
         padding: 1rem;
     }
