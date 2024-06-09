@@ -41,7 +41,7 @@ Develop a thematic recipe website using React, incorporating categories and sear
 ---
 
 #### Demo
-Explore the live demo: [Neobis Front-Themeal](https://neobis-front-themeal-silk.vercel.app/)
+Explore the live demo: [Neobis Front-Themeal](https://neobis-front-themeal-react.vercel.app/)
 
 ---
 
