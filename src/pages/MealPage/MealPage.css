@@ -1,0 +1,45 @@
+.selected{
+    margin: 5rem;
+}
+.selected__ingredients{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.selected__ingredients img{
+    width: 50rem;
+    height: 50rem;
+    border-radius: 2rem;
+}
+.selected__ingredients__title{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.selected__instructions{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin: 7rem; 
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.selected__instructions button{
+    border-radius: 1rem;
+    border-width: 0;
+    background-color: red;
+    width: 15rem;
+    height: 4rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.selected__instructions button:hover{
+    background-color: rgb(177, 0, 0);
+}
+.selected__instructions a {
+    text-decoration: none;
+    color: white;
+    font-family: "Cardo", serif;
+    font-size: 1.4rem;
+}
