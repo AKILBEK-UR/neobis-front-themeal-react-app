@@ -56,4 +56,4 @@ To run the project locally, follow these steps:
 ---
 
 #### Contact
-For any questions or suggestions, reach out to Akilbek at [akilbekurinbaev0616t@gmail.com].
+For any questions or suggestions, reach out to Akilbek at [akilbekurinbaev0616@gmail.com].
