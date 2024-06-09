@@ -57,7 +57,7 @@ export default function MainPage(){
           </Link>
           </section>
           <form className="search" onSubmit={handleSearch}>
-            <h2>Find your Meal</h2>
+            <h2>Find your Meal, according to your ingredients</h2>
             <div>
             <input
               className="search__input"
